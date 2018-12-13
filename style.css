@@ -1,0 +1,53 @@
+body {
+	background-image: url("images/background.png");
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  border:5px solid black;
+  text-align:center;
+  font-size:25px;
+ padding: 7px;
+}
+.menu1 {
+grid-column-start:1;
+grid-column-end:span 1;
+height: 100vh;
+}
+.menu2 {
+	grid-column-start:2;
+grid-column-end:span 1;
+height: 100vh;
+}
+.menu3 {
+	grid-column-start:1;
+grid-column-end:span 1;
+}
+.menu4 {
+	grid-column-start:2;
+grid-column-end:span 1;
+}
+.menu5 {
+	grid-column-start:3;
+grid-column-end:span 1;
+}
+.menu6 {
+	grid-column-start:4;
+grid-column-end:span 1;
+}
+.menu7 {
+	grid-column-start:5;
+grid-column-end:span 1;
+}
+.homepage {
+	grid-column:span 5;
+	text-align: center;
+	font-size: 20px;
+}
+.colspan1 {
+	grid-column: span 1;
+}
